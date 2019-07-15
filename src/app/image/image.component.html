@@ -1,0 +1,21 @@
+<div style="margin-top:1rem;display: flex;justify-content: center">
+    <div>
+        <figure class="image">
+            <img src="https://robohash.org/{{imglink}}">
+            <br>
+            <div class="field">
+                <p class="control">
+                    <input (input)="onEntervalue($event)"  class="input is-rounded" type="text" placeholder="Enter Name">
+                </p>
+
+            </div>
+        </figure>
+
+    </div>
+
+</div>
+<div class="has-text-centered" style="margin: 2rem">
+    <a (click)="getImage()" class="button has-text-centered is-danger"> Find Alien </a>
+
+</div>
+
